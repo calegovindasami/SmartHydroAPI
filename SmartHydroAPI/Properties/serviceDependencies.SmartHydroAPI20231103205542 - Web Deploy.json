@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/ST10083941PROG7312APIapi/apis/ST10083941PROG7312API",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/SmartHydroAPI20231103205542/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsSmartHydroDb_EE7496EDC6",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/smarthydro/databases/smarthydro",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:SmartHydroDb",
+      "dynamicId": null
+    }
+  }
+}
